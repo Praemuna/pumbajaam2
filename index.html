@@ -58,7 +58,7 @@
             const iframe = document.querySelector("iframe[data-tally-src]");
             if (iframe) {
               const params = new URLSearchParams();
-              params.append("aadress", data.addresses[0].pikkaadress);
+              params.append("aadress", data.addresses[0].ipikkaadress);
               params.append("ehr_kood", data.addresses[0].ehr[0].ehr_kood);
               params.append("ehitise_nimetus", data.addresses[0].ehr[0].ehitise_nimetus);
               params.append("ehitisealune_pind", data.addresses[0].ehr[0].ehitisalune_pind);
